@@ -1,0 +1,26 @@
+The two main questions are if I'm implementing loss and accuracy correctly. 
+There might also be an issue for if my annotations are correct
+also I might be using a screwy idea of accuracy in general, both theory and practice could be wrong
+
+
+3 CHEERS FOR JOSH IN HIS FIGHT AGAINST JOSH
+IN 
+THE QUEST FOR THE BUG
+
+Implementation and Theory problems
+Annotations
+  Practice is good def good. Windows are super sus but ok for now? Yeah fucking sure
+  In the future it would be good to generate more data by changing the position of the datapoints
+Loss evaluation
+Accuracy evaluation
+
+Setting end values to -1 never gets used
+We should read up on madmom to see how they did this. EASY - DO THIS WHEN SPENT
+
+Current error
+
+Problem: How many logits is the right amount of logits. 
+Iter: There are two options: 100, which is the amount of hidden states, and 2, which is the amount of output states
+My current RNN structure is 1-100-2
+Is it okay to have this many more hidden states than input/output states?
+There should really be only 2 logits. 
